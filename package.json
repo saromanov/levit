@@ -1,0 +1,32 @@
+{
+  "name": "levit",
+  "version": "0.0.1",
+  "description": "Levit's algorithm",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test": "mocha test"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saromanov/levit.git"
+  },
+  "keywords": [
+    "levit",
+    "graph"
+  ],
+  "author": "Sergey Romanov <xxsmotur@gmail.com> (https://github.com/saromanov)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saromanov/levit/issues"
+  },
+  "homepage": "https://github.com/saromanov/levit#readme",
+  "dependencies": {
+    "core-js": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel": "^4.6.0",
+    "mocha": "^2.2.5"
+  }
+}
