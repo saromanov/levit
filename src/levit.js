@@ -34,11 +34,16 @@ class Levit {
         distance.set(v1,0);
         let q = [];
         q.push(v1);
+        let id = new Map();
         while(queue.length > 0) {
             let v = q[0]
             q.shift();
             for(let i = 0;i < self.graph.size();++i) {
+                let distto = self.graph[v][i];
+                let length = 1;
+                if(distance.get(distto) > distance.get(v) + length) {
 
+                }
             }
         }
     }
